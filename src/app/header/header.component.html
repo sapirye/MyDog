@@ -1,0 +1,8 @@
+<div class="header">
+<div class=title>{{title}}</div>
+<div class=decription>{{decription}}</div>
+<img src="http://www.mousematuk.co.uk/Mouse%20Mats/Dogs/Siberian%20Husky/slides/Siberian%20Husky%209Y570D-006.JPG" class="logo">
+<div class="nav">
+ <app-nav *ngFor="let item of ServiceService.navItems" [text]="item.text"  ></app-nav>
+ </div>
+</div>
